@@ -7,7 +7,7 @@ def retorna_termos(entrada):
             operador = elem
         elif elem.isdigit():
             termos.append(int(elem))
-
+            
     n1, d1, n2, d2 = termos[0], termos[1], termos[2], termos[3]
 
     return n1, d1, n2, d2, operador
