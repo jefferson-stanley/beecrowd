@@ -17,7 +17,6 @@ def ordena_vagoes(vagoes, L):
 
     return swap
 
-
 def main():
     swaps = []
     num_testes = int(input())
@@ -30,6 +29,5 @@ def main():
 
     for elem in swaps:
         print(f'Optimal train swapping takes {elem} swaps.')
-
 
 main()
