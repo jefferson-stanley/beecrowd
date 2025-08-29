@@ -12,7 +12,6 @@ def retorna_termos(entrada):
 
     return n1, d1, n2, d2, operador
 
-
 def operacao(n1, d1, n2, d2, operador):
     numerador = n1 * d2
     denominador = d1 * d2
@@ -27,7 +26,6 @@ def operacao(n1, d1, n2, d2, operador):
         denominador = n2 * d1
 
     return numerador, denominador
-
 
 def simplificador(numerador, denominador):
     maior, menor = numerador, denominador
@@ -44,7 +42,6 @@ def simplificador(numerador, denominador):
 
     return num_simp, den_simp
 
-
 def main():
     num_casos = int(input())
 
@@ -56,6 +53,5 @@ def main():
         num_simp, den_simp = simplificador(num, den)
 
         print(f'{num}/{den} = {num_simp:.0f}/{den_simp:.0f}')
-
 
 main()
