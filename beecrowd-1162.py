@@ -14,7 +14,7 @@ def ordena_vagoes(vagoes, L):
                 list_vagoes[j] = list_vagoes[j + 1]
                 list_vagoes[j + 1] = temp
                 swap += 1
-
+                
     return swap
 
 def main():
